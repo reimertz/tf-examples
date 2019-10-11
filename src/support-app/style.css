@@ -1,0 +1,113 @@
+@import url("../styles.css");
+
+body {
+	background-image: url('../assets/bg.support.png');
+	background-size: cover;
+	transform-origin: center top;
+}
+
+#mobile	 {
+	width: 320px;
+	height: 575px;
+	overflow: hidden;
+	position: relative;
+}
+
+button {
+	background: var(--blue);
+	color: white;
+	border: none;
+	outline: none;
+	font-size: 25px;
+	padding: 20px;
+	border-radius: 5px;
+	background: 
+}
+
+.controls {
+	display: flex;
+	flex-direction: column;
+}
+
+#mobile::before {
+	background-image: url("../assets/mobile.1.svg");
+	content: '';
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: -20px;
+	width: 100%;
+	height: 100%;
+	z-index: 1337;
+}
+
+#mobile::after {
+	text-align: center;
+	font-size: 20px;
+	padding: 75% 0 0 0;
+	content: 'NOT CHARGING';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	max-height: 200px;
+	z-index: 1335;
+	opacity: 0;
+	transition: opacity 250ms;
+	background: rgba(255,0,0, 0.5);
+}
+
+body[charging="notCharging"] #mobile::after {
+	opacity: 1;
+}
+
+#webcam {
+	left: 10px;
+	width: auto;
+  height: 430px !important;
+ 	margin-left: -50%; 
+ 	padding: 50px;
+ 	opacity: 0;
+ 	transform: rotate(90deg);
+}
+
+body[status="working"] #webcam {
+	opacity: 1;
+}
+
+#robot {
+	transition: 250ms;
+	height: 511px;
+}
+
+#on-button {
+	cursor: pointer;
+}
+
+#eyes, #mouth {
+	opacity: 0;
+}
+
+body[status="working"] #eyes, body[status="working"] #mouth {
+	opacity: 1;
+}
+
+#charging, #not-charging {
+	opacity: 0.8;
+	transition: all 250ms;
+	cursor: pointer;
+}
+
+
+g#charging:hover, g#not-charging:hover {
+	opacity: 1;
+}
+
+g#charging:active *, g#not-charging:active * {
+	transform: scale(0.95);
+}

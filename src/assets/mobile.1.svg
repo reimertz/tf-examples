@@ -1,0 +1,16 @@
+
+<svg width="403px" height="719px" viewBox="0 0 403 719" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-2062.000000, -95.000000)">
+            <path d="M2465,95 L2465,814 L2062,814 L2062,95 L2465,95 Z M2423,164 L2128,164 L2128,679 L2423,679 L2423,164 Z" id="Combined-Shape" fill="#FF523B"></path>
+            <g id="Group-3" transform="translate(2088.000000, 138.000000)" stroke="#000000" stroke-width="10">
+                <path d="M5,36.111985 L5,629 L329.030324,629 L345.24669,606.594708 L328.320654,569.293454 L34.765978,560.951198 L30.6673009,15.8951207 L22.341189,7.9021352 L5,36.111985 Z" id="Rectangle" fill="#FF523B"></path>
+                <g id="Group-2" transform="translate(21.000000, 0.000000)">
+                    <path d="M324.803302,5 L5.50692662,5 L5.50692662,605 L324.803302,605 L324.803302,5 Z M304.547438,40.6158358 L304.547438,530.029326 L25.7627902,530.029326 L25.7627902,40.6158358 L304.547438,40.6158358 Z" id="Combined-Shape" fill="#333FFF"></path>
+                    <rect id="Rectangle" fill="#FF523B" x="136.381127" y="547.02346" width="57.5479744" height="34.7214076" rx="17.3607038"></rect>
+                    <rect id="Rectangle" fill="#FF523B" x="140.602875" y="19.7829912" width="49.1044776" height="6.09970674" rx="3.04985337"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

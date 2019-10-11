@@ -1,0 +1,52 @@
+@import url("../styles.css");
+
+body {
+	background-image: url('../assets/bg.audio.png');
+	background-size: cover;
+}
+
+#robot {
+	transition: 250ms;
+	height: 400px;
+}
+
+#eyes-normal, #eyes-thinking, #eyes-listening,
+#mouth-normal, #mouth-thinking {
+	opacity: 0;
+}
+
+body[status="waiting"] #eyes-normal,
+body[status="waiting"] #mouth-normal {
+	opacity: 1;
+}
+
+body[status="learning"] #eyes-listening,
+body[status="learning"] #mouth-thinking {
+	opacity: 1;
+}
+
+body[status="thinking"] #eyes-thinking,
+body[status="thinking"] #mouth-thinking {
+	opacity: 1;
+}
+
+body[status="listening"] #eyes-listening,
+body[status="listening"] #mouth-normal {
+	opacity: 1;
+}
+
+#on-button {
+	opacity: 1;
+}
+
+body[status] #on-button {
+	opacity: 0.25;
+}
+
+g#charging:hover, g#not-charging:hover {
+	opacity: 1;
+}
+
+g#charging:active *, g#not-charging:active * {
+	transform: scale(0.95);
+}

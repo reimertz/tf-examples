@@ -1,0 +1,30 @@
+
+<svg width="610px" height="811px" viewBox="0 0 610 811" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Robot">
+            <path d="M79.5673105,33.1252534 L78.5894462,331.935714 L132.590336,385.936604 L520,374.14981 L520,73.2658746 L465.39711,9.14548234 L79.5673105,33.1252534 Z" id="Rectangle" stroke="#000000" stroke-width="10" fill="#FF4DE8" transform="translate(299.291332, 197.500000) scale(-1, 1) translate(-299.291332, -197.500000) "></path>
+            <path d="M5,325 L5,739.270685 L57.1548317,805.649561 L550.634334,736.562431 L604.723213,391.377041 L552.569824,325 L5,325 Z" id="Rectangle" stroke="#000000" stroke-width="10" fill="#FF523B" transform="translate(305.000000, 565.500000) scale(1, -1) translate(-305.000000, -565.500000) "></path>
+            <rect id="Rectangle" stroke="#000000" stroke-width="10" fill="#FFFFFF" transform="translate(333.000000, 165.000000) scale(1, -1) translate(-333.000000, -165.000000) " x="141" y="5" width="384" height="320"></rect>
+            <rect id="Rectangle" stroke="#000000" stroke-width="10" fill="#FFFFFF" transform="translate(332.500000, 530.500000) scale(1, -1) translate(-332.500000, -530.500000) " x="60" y="325" width="545" height="411"></rect>
+            <circle id="big-button" stroke="#000000" stroke-width="10" fill="#FF4DE8" transform="translate(170.500000, 530.500000) scale(1, -1) translate(-170.500000, -530.500000) " cx="170.5" cy="530.5" r="71.5"></circle>
+            <g id="not-charging" transform="translate(276.000000, 552.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="10" fill="#FF523B" transform="translate(144.500000, 50.000000) scale(1, -1) translate(-144.500000, -50.000000) " x="5" y="5" width="279" height="90"></rect>
+                <text id="Not-Charging" font-family="BrandonGrotesque-Black, Brandon Grotesque" font-size="35" font-weight="700" fill="#000000">
+                    <tspan x="51" y="63">Not Charging</tspan>
+                </text>
+            </g>
+            <g id="charging" transform="translate(276.000000, 404.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="10" fill="#82FFDA" transform="translate(144.500000, 50.000000) scale(1, -1) translate(-144.500000, -50.000000) " x="5" y="5" width="279" height="90"></rect>
+                <text id="Charging" font-family="BrandonGrotesque-Black, Brandon Grotesque" font-size="50" font-weight="700" fill="#000000">
+                    <tspan x="51" y="64">Charging</tspan>
+                </text>
+            </g>
+            <path d="M259.933555,231 C249.188975,240.906771 244,248.894878 244,254.421053 C244,259.290223 248.639744,263.454425 259.433087,266.683459 C296.498167,277.77218 371.501833,277.77218 408.566913,266.683459 C419.360256,263.454425 424,259.290223 424,254.421053 C424,248.894878 418.811025,240.906771 408.066445,231 L259.933555,231 Z" id="mouth" stroke="#000000" stroke-width="10" fill="#FF4DE8"></path>
+            <rect id="visor" stroke="#000000" stroke-width="10" fill="#82FFDA" x="170" y="36" width="328" height="143"></rect>
+            <g id="eyes" transform="translate(220.000000, 87.000000)" fill="#000000" stroke="#000000" stroke-width="10">
+                <circle id="Oval" cx="18.5" cy="18.5" r="13.5"></circle>
+                <circle id="Oval" cx="209.5" cy="20.5" r="13.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

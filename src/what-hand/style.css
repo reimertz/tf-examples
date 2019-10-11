@@ -1,0 +1,150 @@
+@import url("../styles.css");
+
+html {
+	
+}
+body {
+	background-image: url('../assets/bg.what-hand.png');
+	background-size: cover;
+	color: black;
+	position: relative;
+}
+
+@media only screen and (max-width: 450px) {
+	p{
+		font-size:10%;
+	}
+	p { 
+		font-size: 20px !important;
+	}
+}
+
+#robot {
+	transition: 250ms;
+	height: 400px;
+}
+
+body[what-hand="0"] #robot {
+	transform: rotate(-5deg);
+}
+
+body[what-hand="1"] #robot {
+	transform: rotate(5deg);
+}
+
+#eyes-normal, #eyes-thinking, #eyes-listening,
+#mouth-normal, #mouth-thinking {
+	opacity: 0;
+}
+
+body[what-hand="1"] #left-listening-eye {
+	opacity: 0;
+}
+
+body[what-hand="0"] #right-listening-eye	 {
+	opacity: 0;
+}
+
+body[status="waiting"] #eyes-normal,
+body[status="waiting"] #mouth-normal {
+	opacity: 1;
+}
+
+body[status="learning"] #eyes-listening,
+body[status="learning"] #mouth-thinking {
+	opacity: 1;
+}
+
+body[status="thinking"] #eyes-thinking,
+body[status="thinking"] #mouth-thinking {
+	opacity: 1;
+}
+
+body[status="listening"] #eyes-listening,
+body[status="listening"] #mouth-normal {
+	opacity: 1;
+}
+
+#on-button {
+	opacity: 1;
+}
+
+body[status] #on-button {
+	opacity: 0.25;
+}
+
+g#charging:hover, g#not-charging:hover {
+	opacity: 1;
+}
+
+g#charging:active *, g#not-charging:active * {
+	transform: scale(0.95);
+}
+
+#status {
+	position: fixed;
+	font-size: 20px;
+	bottom: 10px;
+	left: 10px;
+	z-index: 1338;
+}
+
+body[status="listening"] #status {
+	opacity: 0;
+}
+
+#cat {
+	border-radius: 50%;
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	border: 20px solid white;
+	margin-bottom: 350px;
+}
+
+article {
+	text-align: center;
+	max-width: 700px;
+}
+
+footer {
+	transition: all 500ms;
+	position: fixed;
+	bottom: 0;
+	right: 0px;
+	padding: 10px 20px;
+	font-size: 20px; 
+	width: 100vw;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	text-align: right;
+	background: white;
+}
+
+#hamburger {
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	padding: 20px;
+	font-size: 70px; 
+	background: white;
+	cursor: pointer;
+}
+
+#hamburger:hover {
+	transform: scale(1.1);
+}
+
+body[what-hand="0"] #hamburger {
+	position: fixed;
+	left: 0px;
+	right: inherit;
+}
+
+body[what-hand="0"] footer {
+	align-items: flex-start;
+	justify-content: flex-start;
+	text-align: left;	
+	left: 0px;
+}

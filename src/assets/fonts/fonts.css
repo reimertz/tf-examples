@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_thin/Brandon_thin-webfont.eot');
+	src: url('brandon_thin/Brandon_thin-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_thin/Brandon_thin-webfont.woff') format('woff'),
+		 url('brandon_thin/Brandon_thin-webfont.ttf') format('truetype'),
+		 url('brandon_thin/Brandon_thin-webfont.svg#BrandonGrotesqueBlack') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_thin_it/Brandon_thin_it-webfont.eot');
+	src: url('brandon_thin_it/Brandon_thin_it-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_thin_it/Brandon_thin_it-webfont.woff') format('woff'),
+		 url('brandon_thin_it/Brandon_thin_it-webfont.ttf') format('truetype'),
+		 url('brandon_thin_it/Brandon_thin_it-webfont.svg#BrandonGrotesqueBlack') format('svg');
+	font-weight: 100;
+	font-style: italic;
+}
+
+/*Brandon Light*/
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_light/Brandon_light-webfont.eot');
+	src: url('brandon_light/Brandon_light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_light/Brandon_light-webfont.woff') format('woff'),
+		 url('brandon_light/Brandon_light-webfont.ttf') format('truetype'),
+		 url('brandon_light/Brandon_light-webfont.svg#BrandonGrotesqueLight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_light_it/Brandon_light_it-webfont.eot');
+	src: url('brandon_light_it/Brandon_light_it-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_light_it/Brandon_light_it-webfont.woff') format('woff'),
+		 url('brandon_light_it/Brandon_light_it-webfont.ttf') format('truetype'),
+		 url('brandon_light_it/Brandon_light_it-webfont.svg#BrandonGrotesqueLight') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+/*Brandon Regular*/
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_reg/Brandon_reg-webfont.eot');
+	src: url('brandon_reg/Brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_reg/Brandon_reg-webfont.woff') format('woff'),
+		 url('brandon_reg/Brandon_reg-webfont.ttf') format('truetype'),
+		 url('brandon_reg/Brandon_reg-webfont.svg#BrandonGrotesqueRegular') format('svg');
+	font-weight: normal;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_reg_it/Brandon_reg_it-webfont.eot');
+	src: url('brandon_reg_it/Brandon_reg_it-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_reg_it/Brandon_reg_it-webfont.woff') format('woff'),
+		 url('brandon_reg_it/Brandon_reg_it-webfont.ttf') format('truetype'),
+		 url('brandon_reg_it/Brandon_reg_it-webfont.svg#BrandonGrotesqueRegular') format('svg');
+	font-weight: normal;
+	font-weight: 400;
+	font-style: italic;
+}
+
+/*Brandon Medium*/
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_med/Brandon_med-webfont.eot');
+	src: url('brandon_med/Brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_med/Brandon_med-webfont.woff') format('woff'),
+		 url('brandon_med/Brandon_med-webfont.ttf') format('truetype'),
+		 url('brandon_med/Brandon_med-webfont.svg#BrandonGrotesqueMedium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_med_it/Brandon_med_it-webfont.eot');
+	src: url('brandon_med_it/Brandon_med_it-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_med_it/Brandon_med_it-webfont.woff') format('woff'),
+		 url('brandon_med_it/Brandon_med_it-webfont.ttf') format('truetype'),
+		 url('brandon_med_it/Brandon_med_it-webfont.svg#BrandonGrotesqueMedium') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+/*Brandom Bold*/
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_bld/Brandon_bld-webfont.eot');
+	src: url('brandon_bld/Brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_bld/Brandon_bld-webfont.woff') format('woff'),
+		 url('brandon_bld/Brandon_bld-webfont.ttf') format('truetype'),
+		 url('brandon_bld/Brandon_bld-webfont.svg#BrandonGrotesqueBold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_bld_it/Brandon_bld_it-webfont.eot');
+	src: url('brandon_bld_it/Brandon_bld_it-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_bld_it/Brandon_bld_it-webfont.woff') format('woff'),
+		 url('brandon_bld_it/Brandon_bld_it-webfont.ttf') format('truetype'),
+		 url('brandon_bld_it/Brandon_bld_it-webfont.svg#BrandonGrotesqueBold') format('svg');
+	font-weight: 700;
+	font-style: italic;
+}
+
+/*Brandon Black*/
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_blk/Brandon_blk-webfont.eot');
+	src: url('brandon_blk/Brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_blk/Brandon_blk-webfont.woff') format('woff'),
+		 url('brandon_blk/Brandon_blk-webfont.ttf') format('truetype'),
+		 url('brandon_blk/Brandon_blk-webfont.svg#BrandonGrotesqueBlack') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Brandon';
+	src: url('brandon_blk_it/Brandon_blk_it-webfont.eot');
+	src: url('brandon_blk_it/Brandon_blk_it-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('brandon_blk_it/Brandon_blk_it-webfont.woff') format('woff'),
+		 url('brandon_blk_it/Brandon_blk_it-webfont.ttf') format('truetype'),
+		 url('brandon_blk_it/Brandon_blk_it-webfont.svg#BrandonGrotesqueBlack') format('svg');
+	font-weight: 900;
+	font-style: italic;
+}

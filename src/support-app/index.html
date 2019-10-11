@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<title>Support App</title>
+<link rel="stylesheet" type="text/css" href="./style.css">
+
+<section>
+  <h1>ML Robot</h1> 
+  <svg id="robot" viewBox="0 0 610 811">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g transform="translate(-1184.000000, -1861.000000)">
+        <path d="M1263.56731,1894.12525 L1262.58945,2192.93571 L1316.59034,2246.9366 L1704,2235.14981 L1704,1934.26587 L1649.39711,1870.14548 L1263.56731,1894.12525 Z" id="Rectangle" stroke="#000000" stroke-width="10" fill="#FF4DE8" transform="translate(1483.291332, 2058.500000) scale(-1, 1) translate(-1483.291332, -2058.500000) "></path>
+        <path d="M1189,2186 L1189,2600.27068 L1241.15483,2666.64956 L1734.63433,2597.56243 L1788.72321,2252.37704 L1736.56982,2186 L1189,2186 Z" id="Rectangle" stroke="#000000" stroke-width="10" fill="#FF4DE8" transform="translate(1489.000000, 2426.500000) scale(1, -1) translate(-1489.000000, -2426.500000) "></path>
+        <path d="M1189,2186 L1189,2600.27068 L1241.15483,2666.64956 L1734.63433,2597.56243 L1788.72321,2252.37704 L1736.56982,2186 L1189,2186 Z" id="Rectangle" stroke="#000000" stroke-width="10" fill="#FF523B" transform="translate(1489.000000, 2426.500000) scale(1, -1) translate(-1489.000000, -2426.500000) "></path>
+        <rect id="Rectangle" stroke="#000000" stroke-width="10" fill="#FFFFFF" transform="translate(1517.000000, 2026.000000) scale(1, -1) translate(-1517.000000, -2026.000000) " x="1325" y="1866" width="384" height="320"></rect>
+        <rect id="Rectangle" stroke="#000000" stroke-width="10" fill="#FFFFFF" transform="translate(1516.500000, 2391.500000) scale(1, -1) translate(-1516.500000, -2391.500000) " x="1244" y="2186" width="545" height="411"></rect>
+        <circle class="button" id="on-button" stroke="#000000" stroke-width="10" fill="#FF4DE8" transform="translate(1354.500000, 2391.500000) scale(1, -1) translate(-1354.500000, -2391.500000) " cx="1354.5" cy="2391.5" r="71.5"></circle>
+        <g class="button" id="not-charging" transform="translate(1460.000000, 2413.000000)">
+          <rect id="Rectangle" stroke="#000000" stroke-width="10" fill="#FF523B" transform="translate(144.500000, 50.000000) scale(1, -1) translate(-144.500000, -50.000000) " x="5" y="5" width="279" height="90"></rect>
+          <text id="Not-Charging" font-family="BrandonGrotesque-Black, Brandon" font-size="35" font-weight="700" fill="#000000">
+            <tspan x="51" y="63">Not Charging</tspan>
+          </text>
+        </g>
+        <g class="button" id="charging" transform="translate(1460.000000, 2265.000000)">
+          <rect id="Rectangle" stroke="#000000" stroke-width="10" fill="#82FFDA" transform="translate(144.500000, 50.000000) scale(1, -1) translate(-144.500000, -50.000000) " x="5" y="5" width="279" height="90"></rect>
+          <text id="Charging" font-family="BrandonGrotesque-Black, Brandon" font-size="50" font-weight="700" fill="#000000">
+            <tspan x="51" y="64">Charging</tspan>
+          </text>
+        </g>
+        <path d="M1443.93355,2092 C1433.18897,2101.90677 1428,2109.89488 1428,2115.42105 C1428,2120.29022 1432.63974,2124.45443 1443.43309,2127.68346 C1480.49817,2138.77218 1555.50183,2138.77218 1592.56691,2127.68346 C1603.36026,2124.45443 1608,2120.29022 1608,2115.42105 C1608,2109.89488 1602.81103,2101.90677 1592.06645,2092 L1443.93355,2092 Z" id="mouth" stroke="#000000" stroke-width="10" fill="#FF4DE8"></path>
+        <g id="Group-5" transform="translate(1349.000000, 1892.000000)" stroke="#000000" stroke-width="10">
+          <rect id="Rectangle" fill="#82FFDA" x="5" y="5" width="328" height="143"></rect>
+          <g id="eyes" transform="translate(55.000000, 56.000000)" fill="#000000">
+            <circle id="Oval" cx="18.5" cy="18.5" r="13.5"></circle>
+            <circle id="Oval" cx="209.5" cy="20.5" r="13.5"></circle>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>  
+</section>
+
+<section>
+  <h1>Support App</h1> 
+  <div id="mobile">
+    <video id="webcam" autoplay></video> 
+  </div>
+  <div class="controls">
+      <button id="button">Get camera</button>
+      <select id="select">
+        <option></option>
+      </select>
+    </div>
+</section>
+
+
+<script src="./index.js"></script>

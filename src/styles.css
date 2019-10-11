@@ -1,0 +1,72 @@
+@import url("./assets/fonts/fonts.css");
+
+ :root { 
+	--green: 				#82FFDA;
+	--orange: 			#FFCE38;
+	--red: 					#FF523B;
+	--light-red: 		#FF8484;
+	--pink: 				#FF4DE8;
+	--blue:  				#333FFF;
+	--dark-blue:  	#000338;
+}
+
+body {
+	background-color: var(--dark-blue);
+ 	font-family: "Brandon";
+ 	color: white;
+ 	margin: 0 auto;
+ 	min-width: 100vw;
+ 	display: flex;
+ 	flex-direction: row;
+ 	min-width: 100%;
+ 	justify-content: space-around;
+ 	align-items: flex-start;
+ 	min-height: 100vh;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+*[red] {
+	background-color: var(--red);
+}
+
+*[green] {
+	background-color: var(--green);
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 80px;
+	text-align: center;
+}
+
+text {
+	user-select: none;
+}
+
+.button {
+	opacity: 0.8;
+	transition: all 250ms;
+	cursor: pointer;
+}	
+
+body:not([status]) .button {
+	opacity: 0.25;
+}
+
+.button[disabled="true"] {
+	cursor: crosshair;
+	opacity: 0.25;
+	pointer-events: none;
+}
+
