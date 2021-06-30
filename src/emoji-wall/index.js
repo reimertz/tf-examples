@@ -42,8 +42,8 @@ const robot = {
       alert(`Couldn't access your camera 😢`)
     }
 
-    await faceapi.nets.ssdMobilenetv1.load('./models/face-api')
-    await faceapi.nets.faceExpressionNet.load('./models/face-api')
+    await faceapi.nets.ssdMobilenetv1.load('../models/face-api')
+    await faceapi.nets.faceExpressionNet.load('../models/face-api')
 
     robot.api = await getAPI()
     robot.work()
