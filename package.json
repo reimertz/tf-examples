@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "cross-env NODE_ENV=development parcel  src/index.html --open",
-    "build": "cross-env NODE_ENV=production parcel build src/index.html --out-dir .dist --public-url ./"
+    "build": "cross-env NODE_ENV=production parcel build src/index.html --out-dir .dist --public-url https://reim-tf-examples.netlify.app"
   },
   "browserslist": [
     "last 1 Chrome versions"
